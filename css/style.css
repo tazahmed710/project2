@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+h1{
+  font-size: 30px;
+}
+h3{
+  font-size: 17px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+p{
+  font-weight: bold;
+}
+.highlight{
+  color: #FFA500;
+}
+.box{
+  float: left;
+  width: 35%;
+  margin: 5%;
+  padding-left: 50px;
+}
+.box > img{
+  width: 100%;
+}
+.bgtop{
+  background-image: url(../img/top-banner.png);
+  height: 550px;
+  background-repeat: no-repeat;
+}
+.box button{
+  width: 120px;
+  height: 40px;
+  background-color: orange;
+  border: none;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+.box button a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.Box{
+  float: left;
+  width: 35%;
+  margin: 5%;
+  padding-left: 50px;
+}
+.Box img{
+  width: 100%;
+}
+.Box button{
+  background-color: orange;
+  border: none;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+.Box button a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.bgright{
+  background-image: url(../img/dream-bg.png);
+  background-repeat: no-repeat;
+  height: 550px;
+  background-position-x: right;
+  background-position-y: center;
+}
+.boxes{
+  width: 40%;
+  float: left;
+  padding-top: 20px;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.boxshadow{
+  box-shadow: 10px 10px 40px gray;
+  height: 65%;
+  border-radius: 5px;
+  border-left: 7px solid orange;
+}
+.Experiences{
+  background-image: url(../img/exp-bg.png);
+  background-repeat: no-repeat;
+  height: 450px;
+  background-position: left;
+}.boxes h3{
+  margin-top: 20px;
+}
+footer{
+  text-align: center;
+  padding: 10px;
+}
